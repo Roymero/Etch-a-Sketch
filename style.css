@@ -49,12 +49,12 @@
 
 }
 
-.griddy{
-    background-color: #D8D8D8;
+.griddyDefault{
+    background-color: #AAAAAA;
     height: 630px;
     width: 900px;
-   
-
+    display: grid;
+    grid-gap: 1px;
 }
 
 
@@ -114,6 +114,9 @@
     background-color: #FFED66;
 }
 
+.leftButtons button:focus{
+    background-color: #FFED66;
+}
 
 
 .rightButtons button{
@@ -135,6 +138,11 @@
 }
 
 .rightButtons button:hover{
+    background-color: #FFED66;
+}
+
+
+.rightButtons button:focus{
     background-color: #FFED66;
 }
 
@@ -168,6 +176,8 @@
 .erase:hover{
     background-color: #FFED66;
 }
+
+
 
 .footer{
     display: flex;
