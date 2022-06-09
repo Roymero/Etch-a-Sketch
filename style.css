@@ -67,6 +67,8 @@
     align-items: center;
 }
 
+
+
 .left{
     display: flex;
     margin-left: 86px;
@@ -77,7 +79,7 @@
 
 .right{
     display: flex;
-    margin-left: 76px;
+    margin-left: 62px;
     gap: 9px;
     
     
@@ -121,7 +123,7 @@
 
 .rightButtons button{
     margin-right: 16px;
-    width: 70px;
+    width: 75px;
     height: 35px;
     border: none;
     background-color: #FFFFEA;
@@ -169,7 +171,7 @@
     cursor: pointer;
     outline: none;
     font-size: 100%;
-    margin-left: 50px;
+    margin-left: 30px;
     font-weight: bold;
 }
 
