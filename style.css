@@ -111,14 +111,15 @@
 
 }
 
+.active-button{
+    background-color: #FFED66 !important;
+}
+
 
 .leftButtons button:hover{
     background-color: #FFED66;
 }
 
-.leftButtons button:focus{
-    background-color: #FFED66;
-}
 
 
 .rightButtons button{
@@ -144,9 +145,6 @@
 }
 
 
-.rightButtons button:focus{
-    background-color: #FFED66;
-}
 
 
 .mode{

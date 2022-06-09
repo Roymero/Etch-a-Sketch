@@ -66,30 +66,50 @@ createBoard(32,44);
 
 smol.addEventListener("click", ()=>{ //Adding Event listeners for my buttons
     createBoard(16,22);
+    smol.classList.add('active-button');
+    med.classList.remove('active-button');
+    lorge.classList.remove('active-button');
     
 })
 
 
 med.addEventListener("click", ()=>{
     createBoard(32,44);
+    smol.classList.remove('active-button');
+    med.classList.add('active-button');
+    lorge.classList.remove('active-button');
 })
 
 lorge.addEventListener("click", ()=>{
     createBoard(64,88);
+    smol.classList.remove('active-button');
+    med.classList.remove('active-button');
+    lorge.classList.add('active-button');
+
 })
 
 
 classicButton.addEventListener("click", ()=>{
     changeColor("rgb(112,112,112)");
+    classicButton.classList.add('active-button');
+    darkButton.classList.remove('active-button');
+    randomButton.classList.remove('active-button');
+
 })
 
 darkButton.addEventListener("click", ()=>{
     changeColor("black");
+    classicButton.classList.remove('active-button');
+    darkButton.classList.add('active-button');
+    randomButton.classList.remove('active-button');
 })
 
 
 randomButton.addEventListener("click", ()=>{
     changeColor('random');
+    classicButton.classList.remove('active-button');
+    darkButton.classList.remove('active-button');
+    randomButton.classList.add('active-button');
 })
 
 
